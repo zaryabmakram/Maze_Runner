@@ -295,7 +295,7 @@ public class Maze {
         solution[6][4] = '0';
         solution[15][4] = '0';
         solution[9][10] = '0';
-        solution[13][17] = '0';
+       // solution[13][17] = '0'; /*the following line places the pit quite close to the player, making the game unable to be finished.*/
         solution[13][15] = '0';
         solution[18][10] = '0';
     }
